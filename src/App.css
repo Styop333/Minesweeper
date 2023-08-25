@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 12%;
+  height: 50%;
+  border: 1px solid black;
+}
+
+#i,
+#buttons {
+  text-align: center;
+  display: grid;
+  font-size: 2em;
+  justify-content: center;
+  grid-template-columns: repeat(8, 44.8px);
+  grid-template-rows: repeat(8, 44.8px);
+}
+
+#i {
+  position: relative;
+}
+
+button {
+  background: blue;
+}
+
+#buttons {
+  position: absolute;
+  left: 50%;
+  top: 40.6%;
+  transform: translate(-50%, -40%);
+}
